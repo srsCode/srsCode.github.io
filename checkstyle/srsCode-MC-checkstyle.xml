@@ -170,7 +170,9 @@
     <!-- Other -->
     <module name="FinalClass"/>
     <module name="FinalLocalVariable"/>
-    <module name="FinalParameters"/>
+    <module name="FinalParameters">
+      <property name="ignorePrimitiveTypes" value="true"/>
+    </module>
     <module name="AvoidEscapedUnicodeCharacters">
       <property name="allowIfAllCharactersEscaped" value="true"/>
     </module>
