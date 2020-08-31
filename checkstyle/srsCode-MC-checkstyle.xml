@@ -136,14 +136,15 @@
     <module name="AvoidStarImport"/>
     <module name="ImportOrder">
       <property name="groups" value="
-        /^javax?\./,
-        /^(?!(cpw|net\.minecraft(forge)?|srscode)\.)/,
+        /^java\./,
+        /^javax\./,
+        /^(?!(net\.minecraft(forge)?|srscode|de\.srsco)\.)/,
         /^net\.minecraft\./,
-        /^(cpw|net\.minecraftforge)\./,
-        /^(srscode\.)/"/>
+        /^net\.minecraftforge\./,
+        /^(srscode|de\.srsco)\./"/>
       <property name="staticGroups" value="
-        /^(?!(srscode\.))/,
-        /^srscode\./"/>
+        /^(?!(srscode|de\.srsco)\.)/,
+        /^(srscode|de\.srsco)\./"/>
       <property name="option" value="bottom"/>
       <property name="separated" value="true"/>
       <property name="ordered" value="true"/>

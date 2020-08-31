@@ -135,8 +135,8 @@
     <module name="CommentsIndentation"/>
     <module name="AvoidStarImport"/>
     <module name="ImportOrder">
-      <property name="groups" value="/^javax?\./, /^(?!(srscode\.))/, /^(srscode\.)/"/>
-      <property name="staticGroups" value="/^(?!(srscode\.))/, /^srscode\./"/>
+      <property name="groups" value="/^java\./, /^javax\./, /^(?!(srscode|de\.srsco)\.)/, /^(srscode|de\.srsco)\./"/>
+      <property name="staticGroups" value="/^(?!(srscode|de\.srsco)\.)/, /^(srscode|de\.srsco)\./"/>
       <property name="option" value="bottom"/>
       <property name="separated" value="true"/>
       <property name="ordered" value="true"/>
