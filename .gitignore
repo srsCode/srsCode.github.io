@@ -1,0 +1,10 @@
+# Ignore everything...
+
+/*
+
+# Except...
+
+!.gitattributes
+!.gitignore
+!README*
+!checkstyle/
