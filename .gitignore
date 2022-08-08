@@ -8,3 +8,4 @@
 !.gitignore
 !README*
 !checkstyle/
+checkstyle/*-Local.xml
