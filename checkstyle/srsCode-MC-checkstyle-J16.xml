@@ -77,7 +77,7 @@
     <module name="OperatorWrap">
       <property name="id" value="OperatorWrapNL"/>
       <property name="option" value="nl"/>
-      <property name="tokens" value="QUESTION, COLON, LAND, LOR, EQUAL, NOT_EQUAL, GT, LT, GE, LE"/>
+      <property name="tokens" value="QUESTION, COLON, EQUAL, NOT_EQUAL, GT, LT, GE, LE"/>
     </module>
     <module name="OperatorWrap">
       <property name="id" value="OperatorWrapEOL"/>
